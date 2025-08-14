@@ -61,5 +61,3 @@ Este acondicionamiento mejora significativamente la calidad y precisión en la l
 - Eliminación de saturaciones y errores de lectura.
 
 ---
-
-Si quieres, puedo ayudarte a generar esquemas, diagramas o código para la implementación en el ESP32. ¿Quieres? 😊
