@@ -15,9 +15,9 @@ He desarrollado un sistema completo para acondicionar la señal de un **LDR (Lig
 
 ---
 
-##  2. Filtro Butterworth de Una Etapa
+##  2. Filtro de Una Etapa
 
-- Añadí un **filtro paso bajo Butterworth** de orden 1 para:
+- Añadí un **filtro paso bajo** de orden 1 para:
   - Atenuar el ruido de alta frecuencia.
   - Conseguir una respuesta plana en la banda pasante.
   - Mejorar la calidad de la señal antes de la adquisición.
@@ -45,7 +45,7 @@ Durante la implementación, encontré y solucioné problemas de saturación y di
 |---------------------------|--------------------------------------------------|
 | Señal muy alta saturando ADC | Ajuste de ganancia en seguidor y divisor de tensión |
 | Impedancia de entrada baja    | Uso del seguidor para mantener alta impedancia      |
-| Distorsión por ruido          | Filtro Butterworth ajustado para mantener linealidad |
+| Distorsión por ruido          | Filtro ajustado para mantener linealidad |
 
 >  *Resultado:* Señales limpias, sin saturación, dentro del rango de lectura del ESP32.
 
